@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Letters";
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family:"Letters" ;
+    src: url(../font/Letters\ for\ Learners.ttf);
+}
+#header {
+  background-image: url(../img/dark_tint.png),url(../img/hero-bg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 800px;  
+  
+}
+#header h1 span {
+  color:crimson ; 
+}
+#header h1 {
+  float: left;
+  margin-left: 19px;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  float: right;
+}
+nav ul li {
+  padding: 15px;
+
+}
+nav ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 40px;
+}
+nav ul  button {
+  font-size: 27px;
+  border: none;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
+nav ul li a:hover {
+  color: crimson;
+  text-decoration: none;
+}
+.hader-content {
+  position: relative;
+  
+}
+.hader-content h1 {
+  font-size: 70px;
+  
+}
+.hader-content h1 {
+  display: block;
+  position: relative;
+}
+.hader-content :first-child {
+  /* position: absolute; */
+  clear: both;
+  /* top: 120px; */
+  /* left: 200px; */
+  animation: demo 2.5s ease forwards;
+  animation-delay: 1s;
+  
+}
+.hader-content :nth-child(2) {
+  /* position: absolute; */
+  clear: both;
+  /* top: 230px; */
+  /* left: 200px; */
+  animation: demo 2.5s ease forwards;
+  animation-delay: 2s;
+  
+}
+.hader-content :nth-child(3) {
+  /* position: absolute; */
+  clear: both;
+  /* top: 370px;
+  left: 200px; */
+  animation: demo 3.5s ease forwards;
+  animation-delay: 3s;
+}
+.hader-content :nth-child(4) {
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid red;
+  background-color: rgba(0, 0,0, 0.0);
+  position: absolute; 
+   top: 550px; 
+   left: 230px;  
+
+ 
+}
+.hader-content h1 span {
+  position: absolute;
+  background-color: crimson;
+  height:  100%;
+  width: 0%;
+  top: 0;
+	left: 0;
+ animation: majid 2s ease forwards;
+ animation-delay: 0.5s;
+  
+}
+.hader-content h1 :nth-child(1) {
+  animation-delay: 1s;
+}
+.hader-content h1 :nth-child(2) {
+  animation-delay: 2s;
+}
+.hader-content h1 :nth-child(3) {
+  animation: ali 0.5s ease forwards;
+	animation-delay: 3s;
+}
+@keyframes demo {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 200px;
+  }
+}
+@keyframes majid {
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100%{
+    width: 0;
+    left: 100%;
+  }
+}
+@keyframes ali {
+  100% {
+		color: crimson;
+		font-weight: 500;
+	}
+}
+/* end header */
+/* start mine */
+#mine .mine-top h1 span {
+  color: crimson;
+}
+.mine-top {
+  text-align: center;
+}
+.first-mine-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mine-top-box {
+  background-image:url(../img/img-1.png);
+  background-color: rgba(linear-gradient);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  width: 180px;
+  margin-bottom: 20px;
+}
+.mine-top-box img {
+  width: 60px;
+  height: 60px;
+}
