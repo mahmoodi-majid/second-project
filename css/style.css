@@ -73,8 +73,6 @@ nav ul li a:hover {
  transition: 0.3s;
   animation: text-travel 0.5s ease forwards;
 }
-
-
 .hader-content h1:nth-child(1) {
   top: 120px;
   animation-delay: 1s;
@@ -97,8 +95,12 @@ nav ul li a:hover {
   border: 1px solid red;
   background-color: rgba(0, 0,0, 0.0);
   position: absolute; 
-  top: 550px; 
-  left: 230px;  
+  top: 450px; 
+  left: 260px;  
+}
+.hader-content :nth-child(4):hover {
+  background-color: crimson;
+  color: white;
 }
 .hader-content span{
     position: absolute;
@@ -144,8 +146,22 @@ nav ul li a:hover {
 #mine .mine-top h1 span {
   color: crimson;
 }
+.mine-top h1 {
+  margin-top: 60px;
+  font-size: 70px;
+}
+
 .mine-top {
-  text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center; 
+}
+.mine-top :nth-child(2) {
+  width: 400px;
+  line-height: 50px;
+  font-weight: 100;
+  color: black;
 }
 .first-mine-box {
   display: flex;
