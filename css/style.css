@@ -3,9 +3,7 @@
     box-sizing: border-box;
     font-family: "Letters";
     padding: 0;
-
 }
-
 @font-face {
     font-family:"Letters" ;
     src: url(../font/Letters\ for\ Learners.ttf);
@@ -17,7 +15,6 @@
   background-attachment: fixed;
   background-size: cover;
   height: 800px;
-
 }
 #header h1 span {
   color:crimson ;
@@ -27,7 +24,6 @@
   margin-left: 19px;
   color: white;
 }
-
 nav ul {
   list-style-type: none;
   display: flex;
@@ -37,7 +33,6 @@ nav ul {
 }
 nav ul li {
   padding: 15px;
-
 }
 nav ul li a {
    text-decoration: none;
@@ -57,11 +52,9 @@ nav ul li a:hover {
 }
 .hader-content h1{
   position: relative;
-
 }
 .hader-content h1 {
   font-size: 70px;
-
 }
 .hader-content h1 {
  font-size: 80px;
@@ -71,7 +64,7 @@ nav ul li a:hover {
  position: relative;
  top: 100px;
  transition: 0.3s;
-  animation: text-travel 0.5s ease forwards;
+ animation: text-travel 0.5s ease forwards;
 }
 .hader-content h1:nth-child(1) {
   top: 120px;
@@ -103,14 +96,14 @@ nav ul li a:hover {
   color: white;
 }
 .hader-content span{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: crimson;
-    width:0;
-    height:95%;
-    animation: box-travel 1s ease forwards;
-    animation-delay: 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: crimson;
+  width:0;
+  height:95%;
+  animation: box-travel 1s ease forwards;
+  animation-delay: 0.5s;
 }
 .hader-content h1:nth-child(1) span {
   animation-delay: 0.5s;
@@ -131,7 +124,6 @@ nav ul li a:hover {
         width: 0%;
         left: 0;
     }
-
     50%{
         width: 100%;
         left: 0%;
@@ -150,7 +142,6 @@ nav ul li a:hover {
   margin-top: 60px;
   font-size: 70px;
 }
-
 .mine-top {
  display: flex;
  flex-direction: column;
@@ -183,4 +174,17 @@ nav ul li a:hover {
 .mine-top-box img {
   width: 60px;
   height: 60px;
+}
+.mine-top-box:hover {
+  animation: minetopbox 1s ease forwards ;
+}
+@keyframes minetopbox  {
+  0% {
+    /* transform: scale(1); */
+    transform: translateY(0px);
+  }
+  50% {
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+  }
 }
