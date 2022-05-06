@@ -180,11 +180,34 @@ nav ul li a:hover {
 }
 @keyframes minetopbox  {
   0% {
-    /* transform: scale(1); */
     transform: translateY(0px);
   }
   50% {
-    /* transform: scale(1.1); */
     transform: translateY(-10px);
   }
+}
+@media screen and (max-width:992px) {
+.first-mine-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+
+}
+.mine-top-box {
+  flex-basis: 45%;
+  margin: 15px
+}
+
+}
+@media screen and (max-width:768px) {
+.first-mine-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+
+}
+.mine-top-box {
+  flex-basis: 86%;
+  margin: 15px
+}
 }
