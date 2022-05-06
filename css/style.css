@@ -3,7 +3,7 @@
     box-sizing: border-box;
     font-family: "Letters";
     padding: 0;
-    
+
 }
 
 @font-face {
@@ -16,11 +16,11 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 800px;  
-  
+  height: 800px;
+
 }
 #header h1 span {
-  color:crimson ; 
+  color:crimson ;
 }
 #header h1 {
   float: left;
@@ -57,11 +57,11 @@ nav ul li a:hover {
 }
 .hader-content h1{
   position: relative;
-  
+
 }
 .hader-content h1 {
   font-size: 70px;
-  
+
 }
 .hader-content h1 {
  font-size: 80px;
@@ -94,9 +94,9 @@ nav ul li a:hover {
   font-size: 20px;
   border: 1px solid red;
   background-color: rgba(0, 0,0, 0.0);
-  position: absolute; 
-  top: 450px; 
-  left: 260px;  
+  position: absolute;
+  top: 450px;
+  left: 260px;
 }
 .hader-content :nth-child(4):hover {
   background-color: crimson;
@@ -155,7 +155,7 @@ nav ul li a:hover {
  display: flex;
  flex-direction: column;
  justify-content: center;
- align-items: center; 
+ align-items: center;
 }
 .mine-top :nth-child(2) {
   width: 400px;
@@ -169,14 +169,16 @@ nav ul li a:hover {
   align-items: center;
 }
 .mine-top-box {
-  background-image:url(../img/img-1.png);
-  background-color: rgba(linear-gradient);
+  background-image:linear-gradient(rgba(67,73, 82, 1),rgba(90, 101, 114, 0.8)),url(../img/img-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 180px;
-  width: 180px;
-  margin-bottom: 20px;
+  height: auto;
+  width: 300px;
+  margin-bottom: 110px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white
 }
 .mine-top-box img {
   width: 60px;
